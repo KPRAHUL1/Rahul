@@ -14,7 +14,7 @@ export const Navbar = () => {
             <li
               key={index}
               className="rounded-full md:text-[15px] text-xs hover:bg-gray-200 px-3 py-2 font-medium transition cursor-pointer"
-              onClick={() => navigate(window.location.href =`/${item.toLowerCase()}`)}
+              onClick={() => navigate(`/${item.toLowerCase()}`)}
             >
               {item}
             </li>
